@@ -1,0 +1,20 @@
+# Dependensi
+node_modules/
+
+# Log
+*.log
+npm-debug.log*
+.hook-probe.log
+
+# Environment & rahasia
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.swp

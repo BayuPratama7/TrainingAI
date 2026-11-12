@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/scripts/check-html-assets.mjs",
+        "timeout": 30
+      }
+    ]
+  }
+}

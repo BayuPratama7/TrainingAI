@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/scripts/inject-project-context.mjs",
+        "timeout": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "training-ai-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dua halaman landing statis (portofolio + welcome-aboard) dengan orkestrasi .github dan server Node.js tanpa dependensi.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node .github/hooks/scripts/validate-workspace.mjs",
+    "check:assets": "node .github/hooks/scripts/check-html-assets.mjs",
+    "test": "node .github/hooks/scripts/validate-workspace.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

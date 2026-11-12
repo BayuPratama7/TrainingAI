@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bayuaji Wahyu Pratama &mdash; Web Developer | Portofolio</title>
+  <meta name="description" content="Portofolio Bayuaji Wahyu Pratama, Web Developer di Yogyakarta. Fokus PHP Laravel, CodeIgniter 3, Python, database relasional, API, Docker, dan AWS." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <div class="glow glow--top" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <header class="site-header">
+    <a class="brand" href="#main">
+      <span class="brand__mark">
+        <img src="../welcome-aboard/assets/logo.svg" alt="" width="15" height="12" />
+      </span>
+      <span class="brand__identity">
+        <span class="brand__name">Bayuaji Wahyu Pratama</span>
+        <span class="brand__division">WEB DEVELOPER</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <ul class="site-nav__list">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <a class="site-nav__cta" href="#kontak">
+        <span>HUBUNGI SAYA</span>
+        <img src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+      </a>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+    <section class="hero" aria-labelledby="judul-hero">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <span class="badge">
+            <span class="dot dot--glow" aria-hidden="true"></span>
+            <span class="badge__text">Web Developer &middot; Yogyakarta</span>
+          </span>
+
+          <h1 id="judul-hero" class="headline">
+            <span class="headline__line">Membangun Solusi Web</span>
+            <span class="headline__line">Andal dengan</span>
+            <span class="headline__line headline__line--gradient">Arsitektur Terstruktur</span>
+            <span class="headline__line">dan Cloud.</span>
+          </h1>
+
+          <p class="lede">
+            Saya Bayuaji Wahyu Pratama &mdash; Web Developer di Yogyakarta. Lulusan
+            Sistem Informasi dengan fokus PHP, Python, database relasional, integrasi
+            API, serta pengelolaan Docker dan AWS.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn--primary" href="#proyek">
+              <span>EKSPLORASI PROYEK</span>
+              <img class="btn__icon" src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+            </a>
+            <a class="btn btn--secondary" href="#tentang">
+              <span>TENTANG SAYA</span>
+              <img class="btn__icon" src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+            </a>
+          </div>
+
+          <div class="stack">
+            <span class="stack__label">CORE STACK:</span>
+            <span class="chip chip--stack"><span class="chip__dot chip__dot--teal"></span>PHP</span>
+            <span class="chip chip--stack"><span class="chip__dot chip__dot--lilac"></span>Laravel</span>
+            <span class="chip chip--stack"><span class="chip__dot chip__dot--teal"></span>CodeIgniter</span>
+            <span class="chip chip--stack"><span class="chip__dot chip__dot--blue"></span>Python</span>
+            <span class="chip chip--stack"><span class="chip__dot chip__dot--lilac"></span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="terminal">
+          <div class="terminal__header">
+            <span class="terminal__dots" aria-hidden="true">
+              <span class="terminal__dot"></span>
+              <span class="terminal__dot terminal__dot--mid"></span>
+              <span class="terminal__dot terminal__dot--dim"></span>
+            </span>
+            <span class="terminal__file">bayu-pratama.config.ts</span>
+            <img class="terminal__expand" src="../welcome-aboard/assets/icon-expand.svg" alt="" width="12" height="14" />
+          </div>
+
+          <div class="terminal__body">
+            <pre class="code" tabindex="0" aria-label="Contoh konfigurasi profil dalam bentuk kode TypeScript"><code><span class="c-key">import</span><span class="c-plain"> { </span><span class="c-fn">Developer</span><span class="c-plain"> } </span><span class="c-key">from</span><span class="c-str"> '@craft/engineer'</span><span class="c-plain">;</span>
+<span class="c-comment">// Inisialisasi profil teknis</span>
+<span class="c-key">export const</span><span class="c-var"> bayu</span><span class="c-plain"> = </span><span class="c-key">new</span><span class="c-fn"> Developer</span><span class="c-plain">({</span>
+<span class="c-plain">  name: </span><span class="c-str">'Bayuaji Wahyu Pratama'</span><span class="c-plain">,</span>
+<span class="c-plain">  role: </span><span class="c-str">'Web Developer'</span><span class="c-plain">,</span>
+<span class="c-plain">  location: </span><span class="c-str">'Yogyakarta, Indonesia (WIB)'</span><span class="c-plain">,</span>
+<span class="c-plain">  focus: [</span>
+<span class="c-str">    'PHP Laravel &amp; CodeIgniter 3'</span><span class="c-plain">,</span>
+<span class="c-str">    'API Testing &amp; Relational Databases'</span><span class="c-plain">,</span>
+<span class="c-str">    'Docker, AWS &amp; CI/CD Pipeline'</span>
+<span class="c-plain">  ],</span>
+<span class="c-plain">  education: </span><span class="c-str">'S1 Sistem Informasi'</span><span class="c-plain">,</span>
+<span class="c-plain">  getInTouch: () =&gt;</span>
+<span class="c-fn">    window</span><span class="c-plain">.open(</span><span class="c-str">'mailto:bayubys07@gmail.com'</span><span class="c-plain">)</span>
+<span class="c-plain">});</span></code></pre>
+
+            <div class="terminal__footer">
+              <img src="../welcome-aboard/assets/icon-terminal-prompt.svg" alt="" width="12" height="9" />
+              <span class="terminal__cmd">$ git commit -m "feat: build reliable web app"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__icon">
+            <img src="../welcome-aboard/assets/icon-stat-years.svg" alt="" width="23" height="14" />
+          </span>
+          <span class="stat__body">
+            <span class="stat__value">1 Years</span>
+            <span class="stat__label">Experience</span>
+          </span>
+        </div>
+        <div class="stat">
+          <span class="stat__icon">
+            <img src="../welcome-aboard/assets/icon-stat-projects.svg" alt="" width="23" height="23" />
+          </span>
+          <span class="stat__body">
+            <span class="stat__value">4 Proyek</span>
+            <span class="stat__label">Web, API &amp; Infrastruktur Cloud</span>
+          </span>
+        </div>
+        <div class="stat">
+          <span class="stat__icon">
+            <img src="../welcome-aboard/assets/icon-stat-certification.svg" alt="" width="23" height="23" />
+          </span>
+          <span class="stat__body">
+            <span class="stat__value">6</span>
+            <span class="stat__label">Sertifikasi &amp; Pelatihan</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section" aria-labelledby="judul-tentang">
+      <div class="section__head">
+        <span class="eyebrow">01 &bull; TENTANG SAYA</span>
+        <h2 id="judul-tentang" class="section__title">Latar &amp; Cara Saya Bekerja</h2>
+        <p class="section__desc">
+          Pendidikan, pengalaman organisasi, dan pendekatan saya dalam membangun
+          perangkat lunak yang dapat dirawat.
+        </p>
+      </div>
+
+      <div class="about">
+        <div class="about__aside">
+          <figure class="profile">
+            <img
+              class="profile__photo"
+              src="../welcome-aboard/assets/photo-profile.jpeg"
+              alt="Foto Bayuaji Wahyu Pratama"
+              width="417"
+              height="417"
+              loading="lazy"
+            />
+            <figcaption class="profile__caption">
+              <span class="profile__name">Bayuaji Wahyu Pratama</span>
+              <span class="profile__role">Web Developer &middot; PHP &amp; Python</span>
+            </figcaption>
+          </figure>
+
+          <dl class="specs">
+            <div class="specs__row">
+              <dt>Lokasi</dt>
+              <dd>Yogyakarta, DIY</dd>
+            </div>
+            <div class="specs__row">
+              <dt>Fokus Teknis</dt>
+              <dd>Web &amp; Cloud</dd>
+            </div>
+            <div class="specs__row">
+              <dt>Pendidikan</dt>
+              <dd>S1 Sistem Informasi</dd>
+            </div>
+            <div class="specs__row">
+              <dt>Kampus</dt>
+              <dd>Universitas Alma Ata</dd>
+            </div>
+          </dl>
+
+          <a class="btn btn--secondary btn--block" href="#kontak">
+            <span>MARI TERHUBUNG</span>
+            <img class="btn__icon" src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+          </a>
+        </div>
+
+        <div class="about__main">
+          <p class="prose">
+            Saya menempuh S1 Sistem Informasi di Universitas Alma Ata (Agustus 2022
+            &ndash; Agustus 2026). Fokus saya adalah pengembangan aplikasi web dengan
+            PHP Laravel, CodeIgniter 3, dan Python, serta pengelolaan database
+            relasional PostgreSQL dan MySQL.
+          </p>
+          <p class="prose">
+            Saya terbiasa melakukan code tracing, memperbaiki bug report QA, dan
+            menguji alur data API melalui Postman. Pelatihan Full-Stack Cloud Engineer
+            di SEAL melengkapi pengalaman saya dengan AWS, Docker, Terraform, CI/CD,
+            dan monitoring.
+          </p>
+
+          <div class="pillars">
+            <article class="pillar">
+              <span class="pillar__icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3 class="pillar__title">Code Tracing</h3>
+              <p class="pillar__desc">
+                Analisis bug report QA, penelusuran logika MVC, dan perbaikan kode
+                Laravel secara kolaboratif.
+              </p>
+            </article>
+            <article class="pillar">
+              <span class="pillar__icon" aria-hidden="true">&#8596;</span>
+              <h3 class="pillar__title">API &amp; Data</h3>
+              <p class="pillar__desc">
+                Pengujian endpoint, format JSON, status HTTP, dan error handling untuk
+                menjaga integritas data.
+              </p>
+            </article>
+            <article class="pillar">
+              <span class="pillar__icon" aria-hidden="true">&#9679;</span>
+              <h3 class="pillar__title">Kolaborasi Tim</h3>
+              <p class="pillar__desc">
+                Git/GitHub untuk integrasi kode, pull request, dan code review. Terbiasa
+                memimpin kegiatan serta pengembangan anggota.
+              </p>
+            </article>
+          </div>
+
+          <div class="timeline">
+            <h3 class="timeline__title">Pengalaman Organisasi</h3>
+            <ol class="timeline__list" role="list">
+              <li class="timeline__item">
+                <time class="timeline__date" datetime="2024-02">Feb 2024 &mdash; Jan 2025</time>
+                <p class="timeline__role">Wakil Ketua Umum &mdash; HIMSI Universitas Alma Ata</p>
+                <p class="timeline__desc">
+                  Media partner PT. Devcode.ai, kunjungan X-Code, dan sosialisasi MSIB
+                  Batch 7.
+                </p>
+              </li>
+              <li class="timeline__item">
+                <time class="timeline__date" datetime="2023-03">Mar 2023 &mdash; Feb 2024</time>
+                <p class="timeline__role">Wakil Ketua Umum &mdash; HIMSI Universitas Alma Ata</p>
+                <p class="timeline__desc">
+                  Mengelola pelatihan, workshop, tim publikasi, serta seminar
+                  internasional &ldquo;The Influence Of Implementing 21st Century Skills
+                  For Students&rdquo;.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section" aria-labelledby="judul-keahlian">
+      <div class="section__head">
+        <span class="eyebrow">02 &bull; CORE COMPETENCIES</span>
+        <h2 id="judul-keahlian" class="section__title">Keahlian &amp; Teknologi</h2>
+        <p class="section__desc">
+          Teknologi dan perkakas yang saya gunakan untuk pengembangan web,
+          pengelolaan data, kolaborasi tim, serta infrastruktur cloud.
+        </p>
+      </div>
+
+      <div class="skills">
+        <article class="skill">
+          <span class="skill__icon" aria-hidden="true">&lt;/&gt;</span>
+          <h3 class="skill__title">Pemrograman</h3>
+          <p class="skill__desc">
+            Bahasa dan framework untuk pengembangan aplikasi web.
+          </p>
+          <ul class="skill__tags" role="list">
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>PHP</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--blue"></span>Python</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>JavaScript</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--blue"></span>Flask</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>CodeIgniter</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--lilac"></span>Laravel</li>
+          </ul>
+          <p class="skill__foot">Web Development</p>
+        </article>
+
+        <article class="skill">
+          <span class="skill__icon" aria-hidden="true">&#9636;</span>
+          <h3 class="skill__title">Database &amp; API</h3>
+          <p class="skill__desc">
+            Database relasional, integrasi API, dan pengujian alur data.
+          </p>
+          <ul class="skill__tags" role="list">
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>MySQL</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>RESTful API</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--lilac"></span>PostgreSQL</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--blue"></span>API Testing</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>Postman</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--lilac"></span>MVC</li>
+          </ul>
+          <p class="skill__foot">Integritas Data</p>
+        </article>
+
+        <article class="skill">
+          <span class="skill__icon" aria-hidden="true">&#9729;</span>
+          <h3 class="skill__title">Cloud &amp; DevOps</h3>
+          <p class="skill__desc">
+            Infrastruktur cloud, kontainer, dan otomatisasi deployment.
+          </p>
+          <ul class="skill__tags" role="list">
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>AWS</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--blue"></span>Docker</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--lilac"></span>Terraform</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>GitHub Actions</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--blue"></span>Prometheus</li>
+          </ul>
+          <p class="skill__foot">Cloud Engineering</p>
+        </article>
+
+        <article class="skill">
+          <span class="skill__icon" aria-hidden="true">&#9881;</span>
+          <h3 class="skill__title">Tools &amp; Teamwork</h3>
+          <p class="skill__desc">
+            Version control, kolaborasi, dan kepemimpinan organisasi.
+          </p>
+          <ul class="skill__tags" role="list">
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>Git</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--lilac"></span>GitHub</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--blue"></span>Jenkins</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--teal"></span>GitLab</li>
+            <li class="chip chip--tag"><span class="chip__dot chip__dot--lilac"></span>Leadership</li>
+          </ul>
+          <p class="skill__foot">Kolaborasi Tim</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyek" class="section" aria-labelledby="judul-proyek">
+      <div class="section__head section__head--split">
+        <div class="section__head-text">
+          <span class="eyebrow">03 &bull; FEATURED PROJECTS</span>
+          <h2 id="judul-proyek" class="section__title">Proyek Pilihan</h2>
+          <p class="section__desc">
+            Empat proyek dalam pengembangan aplikasi web, integrasi API, dan cloud
+            berdasarkan pengalaman akademik serta kolaborasi profesional.
+          </p>
+        </div>
+        <ul class="filters" role="list">
+          <li class="filter filter--active">SEMUA</li>
+          <li class="filter">WEB</li>
+          <li class="filter">CLOUD</li>
+        </ul>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project__media">
+            <img
+              src="../welcome-aboard/assets/project-sipmagang.jpeg"
+              alt="Tangkapan layar antarmuka SIPMAGANG"
+              width="586"
+              height="293"
+              loading="lazy"
+            />
+            <span class="project__badge">Magang &middot; Agu 2025&ndash;Agu 2026</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">SIPMAGANG &mdash; Pengelolaan Magang</h3>
+            <p class="project__desc">
+              Platform magang Prodi Sistem Informasi Universitas Alma Ata. RBAC untuk
+              6 aktor, pengajuan proposal, logbook, nilai diseminasi, dan surat
+              pengantar menggantikan proses spreadsheet serta email.
+            </p>
+            <ul class="project__stack" role="list">
+              <li class="tag">PHP</li>
+              <li class="tag">CodeIgniter 3</li>
+              <li class="tag">MVC</li>
+              <li class="tag">MySQL</li>
+            </ul>
+          </div>
+          <div class="project__actions">
+            <a class="link-arrow" href="#kontak">
+              <span>Diskusikan Proyek</span>
+              <img src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+            </a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__media">
+            <img
+              src="../welcome-aboard/assets/project-sumulms.jpeg"
+              alt="Tangkapan layar antarmuka SUMULMS"
+              width="586"
+              height="293"
+              loading="lazy"
+            />
+            <span class="project__badge">LMS &middot; Sep&ndash;Des 2025</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">SUMULMS &mdash; LMS SUMU</h3>
+            <p class="project__desc">
+              Proyek bersama Wesclic Indonesia Neotech. Perbaikan bug Laravel
+              melalui code tracing, pengujian endpoint API via Postman, serta
+              kolaborasi pull request dan code review melalui Git/GitHub.
+            </p>
+            <ul class="project__stack" role="list">
+              <li class="tag">PHP</li>
+              <li class="tag">Laravel</li>
+              <li class="tag">Postman</li>
+              <li class="tag">GitHub</li>
+            </ul>
+          </div>
+          <div class="project__actions">
+            <a class="link-arrow" href="#kontak">
+              <span>Diskusikan Proyek</span>
+              <img src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+            </a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__media">
+            <img
+              src="../welcome-aboard/assets/project-bitung.jpeg"
+              alt="Tangkapan layar antarmuka Sistem Informasi Kota Bitung"
+              width="586"
+              height="293"
+              loading="lazy"
+            />
+            <span class="project__badge">Cloud &middot; Okt&ndash;Des 2024</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">Sistem Informasi Kota Bitung</h3>
+            <p class="project__desc">
+              Web Developer pada final project SEAL: AWS EC2/S3, Terraform, Docker,
+              API, keamanan akses, dan CI/CD melalui GitHub Actions.
+            </p>
+            <ul class="project__stack" role="list">
+              <li class="tag">AWS EC2/S3</li>
+              <li class="tag">Docker</li>
+              <li class="tag">Terraform</li>
+              <li class="tag">CI/CD</li>
+            </ul>
+          </div>
+          <div class="project__actions">
+            <a class="link-arrow" href="#kontak">
+              <span>Diskusikan Proyek</span>
+              <img src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+            </a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__media">
+            <img
+              src="../welcome-aboard/assets/project-evoting.jpeg"
+              alt="Tangkapan layar antarmuka E-Voting HIMSI"
+              width="586"
+              height="293"
+              loading="lazy"
+            />
+            <span class="project__badge">Integrasi Sistem &middot; Akademik</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">E-Voting HIMSI &mdash; Pemilihan Digital</h3>
+            <p class="project__desc">
+              Platform pemilihan Ketua HIMSI berbasis CodeIgniter dan RESTful API. Login
+              token serta autentikasi pemilih menjaga validasi akses, sementara MySQL
+              mengelola data pemilih dan rekapitulasi suara otomatis.
+            </p>
+            <ul class="project__stack" role="list">
+              <li class="tag">PHP / CodeIgniter</li>
+              <li class="tag">RESTful API</li>
+              <li class="tag">MySQL</li>
+            </ul>
+          </div>
+          <div class="project__actions">
+            <a class="link-arrow" href="#kontak">
+              <span>Diskusikan Proyek</span>
+              <img src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak" class="section section--contact" aria-labelledby="judul-kontak">
+      <div class="contact">
+        <div class="contact__narrative">
+          <span class="badge">
+            <span class="dot dot--glow" aria-hidden="true"></span>
+            <span class="badge__text">TERBUKA UNTUK KOLABORASI</span>
+          </span>
+
+          <h2 id="judul-kontak" class="section__title">Mari Kolaborasi Bersama.</h2>
+
+          <p class="prose">
+            Diskusikan aplikasi web, integrasi API, database, dan infrastruktur cloud
+            bersama saya. Hubungi melalui email, LinkedIn, atau GitHub. Berbasis di
+            Yogyakarta.
+          </p>
+
+          <div class="contact__direct">
+            <a class="contact__email" href="mailto:bayubys07@gmail.com">
+              <span class="contact__icon" aria-hidden="true">&#9993;</span>
+              <span class="contact__meta">
+                <span class="contact__meta-label">EMAIL</span>
+                <span class="contact__meta-value">bayubys07@gmail.com</span>
+              </span>
+            </a>
+            <ul class="contact__links" role="list">
+              <li><a href="https://www.linkedin.com/" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="contact__form" action="mailto:bayubys07@gmail.com" method="post" enctype="text/plain">
+          <h3 class="contact__form-title">Kirimkan Pesan Langsung</h3>
+
+          <label class="field">
+            <span class="field__label">NAMA LENGKAP</span>
+            <input class="field__input" type="text" name="nama" placeholder="mis. Budi Santoso" required />
+          </label>
+
+          <label class="field">
+            <span class="field__label">ALAMAT EMAIL</span>
+            <input class="field__input" type="email" name="email" placeholder="nama@perusahaan.com" required />
+          </label>
+
+          <label class="field">
+            <span class="field__label">PESAN / RENCANA PROYEK</span>
+            <textarea class="field__input field__input--area" name="pesan" rows="4" placeholder="Ceritakan tujuan, lingkup kebutuhan, dan perkiraan waktu proyek Anda..." required></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--block" type="submit">
+            <span>KIRIM PESAN</span>
+            <img class="btn__icon" src="../welcome-aboard/assets/icon-arrow-right.svg" alt="" width="12" height="12" />
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__text">Bayuaji Wahyu Pratama &bull; Web Developer</p>
+    <p class="site-footer__note">Dibangun dengan HTML, CSS, dan Node.js &mdash; tanpa framework.</p>
+    <ul class="site-footer__nav" role="list">
+      <li><a class="site-footer__link" href="#tentang">Tentang</a></li>
+      <li><a class="site-footer__link" href="#keahlian">Keahlian</a></li>
+      <li><a class="site-footer__link" href="#proyek">Proyek</a></li>
+      <li><a class="site-footer__link" href="#kontak">Kontak</a></li>
+      <li><a class="site-footer__link" href="../welcome-aboard/index.html">Kembali ke Welcome Aboard</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
